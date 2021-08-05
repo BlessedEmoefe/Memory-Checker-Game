@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Home from "../src/pages/home/home.page";
 
 function App() {
   return <div className="App">
-    Hello World
+    <Home />
   </div>;
 }
 
